@@ -25,6 +25,6 @@ namespace _3NLITDS_EliannGrajales_03
         private void btnlimpiar_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Ingresa valores para el limpiar");
-        }
+        }  
     }
 }
