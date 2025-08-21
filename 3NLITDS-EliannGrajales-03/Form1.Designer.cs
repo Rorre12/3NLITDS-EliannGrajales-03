@@ -98,6 +98,7 @@
             this.txtfarenheit.Name = "txtfarenheit";
             this.txtfarenheit.Size = new System.Drawing.Size(100, 22);
             this.txtfarenheit.TabIndex = 6;
+            this.txtfarenheit.TextChanged += new System.EventHandler(this.txtfarenheit_TextChanged);
             // 
             // txtkelvin
             // 
@@ -120,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(739, 319);
             this.Controls.Add(this.btnlimpiar);
             this.Controls.Add(this.txtkelvin);
             this.Controls.Add(this.txtfarenheit);
@@ -130,6 +131,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
